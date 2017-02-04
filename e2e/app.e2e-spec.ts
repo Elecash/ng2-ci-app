@@ -1,14 +1,14 @@
 import { Ng2CiAppPage } from './app.po';
 
-describe('ng2-ci-app App', function() {
-  let page: Ng2CiAppPage;
+describe('ng2-ci-app App', function () {
+    let page: Ng2CiAppPage;
 
-  beforeEach(() => {
-    page = new Ng2CiAppPage();
-  });
+    beforeEach(() => {
+        page = new Ng2CiAppPage();
+    });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
-  });
+    it('should display message saying app works', () => {
+        page.navigateTo();
+        expect(page.getParagraphText()).toEqual('NG Friends!');
+    });
 });

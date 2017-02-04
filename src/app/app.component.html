@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<h1>NG Friends!</h1>
+
+<ul>
+    <li *ngFor="let friend of ngFriends">
+        <a [href]="'https://twitter.com/' + friend.twitter">
+            {{ friend.name }}
+        </a>
+    </li>
+</ul>
