@@ -4,7 +4,6 @@
     "license": "MIT",
     "angular-cli": {},
     "scripts": {
-        "deploy": "ng github-pages:deploy",
         "precommit": "npm test -- --single-run",
         "commit": "git-cz",
         "ng": "ng",
