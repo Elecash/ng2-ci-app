@@ -28,8 +28,9 @@ before_script:
 - npm prune
 
 script:
-- npm run build
+- npm run build:travis
 - npm run e2e
+- npm run build
 
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
