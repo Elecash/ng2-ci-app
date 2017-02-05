@@ -11,7 +11,7 @@ fi
 
 rev=$(git rev-parse --short HEAD)
 
-cd stage/_book
+cd dist
 
 git init
 git config user.name "Raul Jimenez"
