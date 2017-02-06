@@ -8,4 +8,8 @@ export class Ng2CiAppPage {
     getParagraphText() {
         return element(by.css('app-root h1')).getText();
     }
+
+    getFriends() {
+        return element.all(by.css('li')).count();
+    }
 }

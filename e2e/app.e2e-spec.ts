@@ -11,4 +11,9 @@ describe('ng2-ci-app App', function () {
         page.navigateTo();
         expect(page.getParagraphText()).toEqual('NG Friends!');
     });
+
+    it('should display some ng friends', () => {
+        page.navigateTo();
+        expect(page.getFriends()).toEqual(6);
+    });
 });
