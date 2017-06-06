@@ -58,7 +58,7 @@
         "loader-utils": "0.2.16",
         "protractor": "5.1.1",
         "semantic-release": "6.3.2",
-        "ts-node": "2.0.0",
+        "ts-node": "3.0.6",
         "tslint": "4.4.2",
         "typescript": "2.2.1"
     },
