@@ -38,7 +38,7 @@
     "devDependencies": {
         "@angular/cli": "1.0.3",
         "@angular/compiler-cli": "4.0.0",
-        "@angularclass/hmr": "1.2.2",
+        "@angularclass/hmr": "2.1.1",
         "@types/jasmine": "2.5.38",
         "@types/node": "7.0.8",
         "concurrently": "3.3.0",
