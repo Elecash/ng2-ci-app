@@ -14,6 +14,6 @@ describe('ng2-ci-app App', function () {
 
     it('should display some ng friends', () => {
         page.navigateTo();
-        expect(page.getFriends()).toEqual(10);
+        expect(page.getFriends()).toEqual(11);
     });
 });
