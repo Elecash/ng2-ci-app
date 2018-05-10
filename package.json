@@ -40,7 +40,7 @@
         "@angular/compiler-cli": "4.0.0",
         "@angularclass/hmr": "1.2.2",
         "@types/jasmine": "2.5.38",
-        "@types/node": "7.0.8",
+        "@types/node": "10.0.7",
         "concurrently": "3.3.0",
         "codelyzer": "~2.0.0",
         "commitizen": "2.9.5",
