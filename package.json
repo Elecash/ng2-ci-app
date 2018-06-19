@@ -41,7 +41,7 @@
         "@angularclass/hmr": "1.2.2",
         "@types/jasmine": "2.5.38",
         "@types/node": "7.0.8",
-        "concurrently": "3.3.0",
+        "concurrently": "3.6.0",
         "codelyzer": "~2.0.0",
         "commitizen": "2.9.5",
         "cz-conventional-changelog": "1.2.0",
