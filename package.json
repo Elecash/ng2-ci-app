@@ -39,7 +39,7 @@
         "@angular/cli": "1.0.3",
         "@angular/compiler-cli": "4.0.0",
         "@angularclass/hmr": "1.2.2",
-        "@types/jasmine": "2.5.38",
+        "@types/jasmine": "3.3.11",
         "@types/node": "7.0.8",
         "concurrently": "3.3.0",
         "codelyzer": "~2.0.0",
